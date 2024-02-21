@@ -1,0 +1,34 @@
+[project]
+name = "scapy-artemissbs"
+version = "0.2.0"
+dependencies = ["scapy"]
+authors = [
+    { name = "Alexander Chambers", email = "alexander.chambers@defence.gov.au" },
+]
+description = "Scapy extensions for the Artemis Spaceship Bridge Simulator game"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Researchers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["artemis", "packet"]
+
+[project.urls]
+Homepage = "https://dev.azure.com/DST-MARC/Sprints/_git/scapy-artemissbs"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = "tests"
