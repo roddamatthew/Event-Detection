@@ -1,4 +1,4 @@
-Automated Event Detection through Deep Packet Inspection with Machine Learning
+**Automated Event Detection through Deep Packet Inspection with Machine Learning**
 
 Generate event detection datasets and perform machine learning to predict events from network traffic.
 File summaries are as follows:
