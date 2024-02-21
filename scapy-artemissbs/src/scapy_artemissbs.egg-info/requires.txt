@@ -1,0 +1,10 @@
+scapy
+
+[dev]
+black
+isort
+mypy
+pylint
+pytest
+snakeviz
+tox
